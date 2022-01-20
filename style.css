@@ -11,6 +11,10 @@ h1{
   font-size: 50px;
 }
 
+h2{
+  font-size: 30px;
+}
+
 .top-banner{
   background-image: url("image/top-banner.png");
   background-repeat: no-repeat;
@@ -28,7 +32,7 @@ h1{
   color: red;
 }
 
-.cover-intro{
+p{
   font-size: 20px;
   text-align: justify;
   padding-right: 20px;
@@ -58,5 +62,38 @@ h1{
 }
 
 .experiance{
-  padding-left: 5%;
+  padding: 0% 0% 1% 1%;
+  
+}
+
+.box{
+  background-color: white;
+  box-shadow: 10px 10px 40px gray;
+  height: 300px;
+  width: 35%;
+  padding: 40px 60px;
+  border-radius: 10px;
+}
+
+.end-banner{
+  background-image: url(image/exp-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.b-color-1{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, red, blue);
+  border-image-slice: 1;
+}
+
+.b-color-2{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, red);
+  border-image-slice: 1;
+}
+
+footer p{
+  font-size: 12px;
+  text-align: center;
 }
